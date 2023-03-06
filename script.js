@@ -1,3 +1,5 @@
+import { ChatGPTUnofficialProxyAPI } from 'chatgpt'
+
 const api = new ChatGPT.ChatGPTUnofficialProxyAPI({
   accessToken: "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"
 })
