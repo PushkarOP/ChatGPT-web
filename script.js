@@ -1,7 +1,5 @@
-//import { ChatGPTUnofficialProxyAPI } from 'chatgpt'
-
-const api = new ChatGPTUnofficialProxyAPI({
-  accessToken: "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";
+const api = new ChatGPT.ChatGPTUnofficialProxyAPI({
+  accessToken: "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"
 })
 
 const input = document.getElementById('input')
@@ -15,3 +13,4 @@ button.addEventListener('click', async () => {
   output.innerHTML += `<p><strong>You:</strong> ${question}</p>`
   output.innerHTML += `<p><strong>ChatGPT:</strong> ${res.text}</p>`
 })
+
