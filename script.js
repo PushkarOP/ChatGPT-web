@@ -1,7 +1,7 @@
 //import { ChatGPTUnofficialProxyAPI } from 'chatgpt'
 
 const api = new ChatGPTUnofficialProxyAPI({
-  accessToken: process.env.OPENAI_ACCESS_TOKEN
+  accessToken: "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";
 })
 
 const input = document.getElementById('input')
